@@ -1,6 +1,6 @@
 # 魔域连GAN
 
-这是基于 GAN 魔方星球（CubeStation）的 Android 改版。它让手机通过蓝牙直连魔域智能魔方，不需要电脑、开发板或第二部手机。
+这是基于 GAN 魔方星球（CubeStation）的 Android 改版。手机通过蓝牙直连魔域 V10 AI（MoYu32 协议），不需要电脑、开发板或第二部手机。
 
 1. 到 [Releases](https://github.com/CadenAlgo/moyuconnectganapp/releases) 下载通用 APK 并安装。
 2. 打开应用，用手机号登录，并允许蓝牙或附近设备权限。
