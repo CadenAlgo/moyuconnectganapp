@@ -2,7 +2,7 @@
 
 这是基于 GAN 魔方星球（CubeStation）的 Android 改版。手机通过蓝牙直连魔域 V10 AI（MoYu32 协议），不需要电脑、开发板或第二部手机。
 
-1. 下载 [最新通用 APK](https://github.com/CadenAlgo/moyuconnectganapp/releases/latest) 并安装。
+1. 打开 [最新版本](https://github.com/CadenAlgo/moyuconnectganapp/releases/latest)，选精简版或原界面版的 APK 安装。
 2. 打开应用，用手机号登录，并允许蓝牙或附近设备权限。
 3. 转动一下魔方唤醒它，在「设备连接」中添加设备。状态不同步时，先把实体魔方复原，再点「状态重置」。
 4. 在游戏画面右侧点「型号」，选中要使用的 GAN 型号。魔方已连接时可以直接切换。
@@ -10,6 +10,13 @@
 通用包包含 ARM 32 位和 64 位库。手机号登录、魔域魔方连接和状态重置已在 OPPO Reno14（ColorOS 16）上验证。登录、在线比赛和榜单仍使用魔方星球服务。微信和 QQ 登录会校验应用身份，请使用手机号。
 
 各版本的改动和实测反馈见 Releases。
+
+## v0.13 更新
+
+- [精简版](https://github.com/CadenAlgo/moyuconnectganapp/releases/download/v0.13/MoYuConnectGAN-v0.13-lite-universal.apk)（`lite`，351.98 MiB）隐藏签到、商城、任务及活动推广，保留设备连接、状态重置、公式练习、擂台赛、排位赛及榜单。可覆盖安装 v0.12「魔域蓝牙兼容」。
+- [原界面版](https://github.com/CadenAlgo/moyuconnectganapp/releases/download/v0.13/MoYuConnectGAN-v0.13-full-universal.apk)（`full`，367.12 MiB）使用原版界面及活动资源，应用名为「魔域兼容原版」。可以与精简版并存，第一次打开需用手机号登录。
+- 两版均包含 ARM 32 位和 64 位库，都支持在游戏右侧「型号」菜单切换六款 GAN Gen2 型号。v0.10 使用独立包名，可与新版并存。
+- 修正威龙 V10 AI 三轴姿态到 GAN Gen2 的转换。首次安装默认选 GAN12 UI；已有的型号设置会继续使用。使用姿态跟随请选择 GAN12 UI、GAN 356 i 3、GAN Mini UI FreePlay 或 GAN12 UI FreePlay，并在游戏内打开所在模式的陀螺仪设置。GAN 356 i Carry 和 Carry S 支持面转动。姿态数据来自魔方实际发出的蓝牙通知。
 
 ## v0.12 更新
 
