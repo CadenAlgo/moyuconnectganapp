@@ -16,7 +16,7 @@
 - [精简版](https://github.com/CadenAlgo/moyuconnectganapp/releases/download/v0.13/MoYuConnectGAN-v0.13-lite-universal.apk)（`lite`，351.98 MiB）隐藏签到、商城、任务及活动推广，保留设备连接、状态重置、公式练习、擂台赛、排位赛及榜单。可覆盖安装 v0.12「魔域蓝牙兼容」。
 - [原界面版](https://github.com/CadenAlgo/moyuconnectganapp/releases/download/v0.13/MoYuConnectGAN-v0.13-full-universal.apk)（`full`，367.12 MiB）使用原版界面及活动资源，应用名为「魔域兼容原版」。可以与精简版并存，第一次打开需用手机号登录。
 - 两版均包含 ARM 32 位和 64 位库，都支持在游戏右侧「型号」菜单切换六款 GAN Gen2 型号。v0.10 使用独立包名，可与新版并存。
-- 修正威龙 V10 AI 三轴姿态到 GAN Gen2 的转换。首次安装默认选 GAN12 UI；已有的型号设置会继续使用。使用姿态跟随请选择 GAN12 UI、GAN 356 i 3、GAN Mini UI FreePlay 或 GAN12 UI FreePlay，并在游戏内打开所在模式的陀螺仪设置。GAN 356 i Carry 和 Carry S 支持面转动。姿态数据来自魔方实际发出的蓝牙通知。
+- 修正威龙 V10 AI 的三轴姿态转换，按 GAN Gen2 的格式传递连续两组真实姿态和陀螺仪就绪信息。首次安装默认选 GAN12 UI，已有的型号设置会继续使用。使用姿态跟随请选择 GAN12 UI、GAN 356 i 3、GAN Mini UI FreePlay 或 GAN12 UI FreePlay，并在「设置 → 魔方」开启性能模式。GAN 356 i Carry 和 Carry S 支持面转动。
 
 ## v0.12 更新
 
